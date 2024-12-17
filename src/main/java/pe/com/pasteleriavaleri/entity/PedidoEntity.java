@@ -43,4 +43,6 @@ public class PedidoEntity implements Serializable {
     private String observaciones;
     @Column(name="estado")
     private boolean estado;
+
+
 }

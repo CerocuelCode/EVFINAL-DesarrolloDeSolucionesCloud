@@ -32,4 +32,6 @@ public class DetallePedidoEntity implements Serializable {
     private double subtotal;
     @Column(name="especificaciones")
     private String especificaciones;
+
+
 }

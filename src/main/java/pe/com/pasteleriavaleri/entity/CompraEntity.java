@@ -34,4 +34,7 @@ public class CompraEntity implements Serializable {
     private double totalCompra;
     @Column(name="estado")
     private boolean estado;
+
+
+
 }

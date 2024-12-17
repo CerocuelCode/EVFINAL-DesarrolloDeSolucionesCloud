@@ -30,4 +30,6 @@ public class DetalleCompraEntity implements Serializable {
     private double precioUnitario;
     @Column(name="subtotal")
     private double subtotal;
+
+
 }

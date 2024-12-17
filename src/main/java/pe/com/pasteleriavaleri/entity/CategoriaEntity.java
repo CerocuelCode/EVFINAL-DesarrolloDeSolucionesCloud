@@ -1,7 +1,10 @@
 package pe.com.pasteleriavaleri.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
@@ -18,10 +21,15 @@ public class CategoriaEntity implements Serializable {
     @Column(name="codcategoria")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigo;
+
     @Column(name="nomcategoria")
     private String nombre;
+
     @Column(name="descripcioncategoria")
     private String descripcion;
+
     @Column(name="estado")
     private boolean estado;
+
+
 }

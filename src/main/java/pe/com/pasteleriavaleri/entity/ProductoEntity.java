@@ -27,14 +27,19 @@ public class ProductoEntity implements Serializable  {
 
     @Column(name="nomproducto")
     private String nombre;
+
     @Column(name="descripcionproducto")
     private String descripcion;
+
     @Column(name="precio")
     private double precio;
+
     @Column(name="tiempo_preparacion")
     private int tiempoPreparacion;
+
     @Column(name="stock")
     private int stock;
+
     @Column(name="estado")
     private boolean estado;
 

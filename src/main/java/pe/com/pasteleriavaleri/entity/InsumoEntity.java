@@ -32,4 +32,6 @@ public class InsumoEntity implements Serializable {
     private double stockMinimo;
     @Column(name="estado")
     private boolean estado;
+
+
 }

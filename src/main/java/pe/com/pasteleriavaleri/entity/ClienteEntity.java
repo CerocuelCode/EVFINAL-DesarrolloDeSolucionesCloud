@@ -30,4 +30,6 @@ public class ClienteEntity implements Serializable {
     private String telefono;
     @Column(name="estado")
     private boolean estado;
+
+
 }
